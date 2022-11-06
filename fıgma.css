@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    background: #5c4949;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.maincontainer{
+    width:50%;
+    height: 600px;;
+    background-color:#FFFFFF;
+    border-radius: 60px;
+    position: relative;
+}
+/*Header section*/
+
+header{
+    height: 75px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+.navItem{
+    font-weight:400;
+    font-size: 16px;
+    color: #00240F;
+    
+}
+
+.signin{
+    text-decoration: none;
+    background-color:#EC0000 ;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+
+nav ul li{
+    //display: flex;
+    align-items:center;
+}
+
+.logo{
+    width:100px;
+    
+}
+
+/*Banner Section*/
+main{
+    height: 300px;
+    display: flex;
+}
+
+.leftAside{
+   width: 50%; 
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   padding-left: 50px;
+   gap:20px ;
+}
+
+.rightAside {
+    position:relative;
+    width: 50%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.rightAside img{
+    width: 80%;
+    margin-right: -70px;
+    //image:linear-gradient(to left, transparent,white 20%,black);
+    //background-size: cover;
+    
+    
+    
+}
+
+.leftAside h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.leftAside p{
+    font-weight: 500;
+    font-size:18px;
+}
+.orderButton{
+    background-color: #EC0000;
+    width: 100px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow:0 5px 10px 0 rgba(236,0,0,0.2);
+}
+
+.subHeader{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/*absolute*/
+.absolute1{
+    position: absolute;
+    top: -20px;
+    left: 30%;
+}
+
+.absolute1 img{
+    width: 30px;
+}
+
+.absolute2{
+    position: absolute;
+    right: -60px;
+    top: 49%;
+}
+
+.absolute2 img{
+    width:150px;
+    right: 20px;
+}
+
+.absolute3{
+    position: absolute;
+    right: -60px;
+    bottom: -100px;
+    right: -80px;
+    top: 555px;
+}
+
+.absolute3 img{
+    width:150px;
+}
+
+.absolute4{
+    position:absolute;
+    left: -55px;
+    bottom: -50px;
+    z-index:-1;
+}
+
+.absolute4 img{
+    width:100px;   
+}
+
+.absolute5{
+    position: absolute;
+    left: -55px;
+    bottom: 100px;
+}
+
+.absolute5 img{
+    width:100px;
+}
+
+
+    
